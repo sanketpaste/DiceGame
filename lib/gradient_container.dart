@@ -1,3 +1,4 @@
+import 'package:dice_game/style_text.dart';
 import 'package:flutter/material.dart';
 
 const startAlignment = Alignment.topLeft;
@@ -26,14 +27,7 @@ class GradientContainer extends StatelessWidget {
           ],
         ),
       ),
-      child:const Center(child:  Text(
-        'Hello World',
-        style: TextStyle(
-          fontSize: 24,
-          color: Colors.white,
-          
-        ),
-        )
+      child:const Center(child: StyleText('Hello World!'),
       ),
     );
   }
