@@ -31,6 +31,7 @@ class GradientContainer extends StatelessWidget {
         style: TextStyle(
           fontSize: 24,
           color: Colors.white,
+          
         ),
         )
       ),
